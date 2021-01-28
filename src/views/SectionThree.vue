@@ -23,6 +23,10 @@ export default {};
 </script>
 
 <style>
+.main-3 {
+  margin-bottom: 150px;
+  background-color: #FDFDFC;
+}
 .item-5 {
   display: flex;
   justify-content: space-between;
@@ -38,9 +42,7 @@ export default {};
 }
 .item-5 p {
   font-size: 18px;
-}
-.main-3 {
-  margin-bottom: 150px;
+  color: rgba(79, 58, 101, 0.541);
 }
 .main-3 h1 {
   text-align: center;

@@ -64,4 +64,7 @@ body{
   padding-left: 50px;
   width: 130px;
 }
+p{
+  color: rgba(79, 58, 101, 0.719);
+}
 </style>
