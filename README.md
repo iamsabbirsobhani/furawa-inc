@@ -7,11 +7,7 @@ This is a fictional company Furawa.inc's promotional website. Furawa.inc is a te
 
 FF08D7 - 25CED8 - cadefc - 574f7d -
 
-<img src="markdownmonstericon.png"
-     alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" />
-<img class="logo" src="@/assets/logo.svg">
-<img class="logo" src="@/assets/Screenshot_5.png">
+<img src="https://github.com/iamsabbirsobhani/furawa-inc/blob/master/mockups/Screenshot_5.png" alt="Color scheme">
 
 
 
