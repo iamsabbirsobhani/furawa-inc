@@ -63,6 +63,7 @@ export default {};
 
 <style>
 .footer {
+  background-color: #cadefc;
   display: flex;
   justify-content: space-between;
   padding: 20px;

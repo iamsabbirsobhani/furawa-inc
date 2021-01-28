@@ -61,7 +61,7 @@ body{
   text-decoration: none;
 }
 .logo{
-  padding: 18px;
+  padding-left: 50px;
   width: 130px;
 }
 </style>
