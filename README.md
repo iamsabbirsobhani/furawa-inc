@@ -7,7 +7,7 @@ This is a fictional company Furawa.inc's promotional website. Furawa.inc is a te
 
 FF08D7 - 25CED8 - cadefc - 574f7d -
 
-<img src="https://github.com/iamsabbirsobhani/furawa-inc/blob/master/mockups/Screenshot_5.png" alt="Color scheme">
+<img src="https://github.com/iamsabbirsobhani/furawa-inc/blob/master/mockups/Screenshot_5.png" alt="Color scheme" style="margin: 10px auto;">
 
 
 
