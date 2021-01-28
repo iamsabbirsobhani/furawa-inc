@@ -15,7 +15,7 @@ export default {};
 </script>
 <style>
   .form{
-    width: 400px;
+    width: 300px;
     border-radius: 10px;
     background-color: white;
     margin: 100px auto;
@@ -24,10 +24,12 @@ export default {};
     font-size: 16px;
     text-align: left;
     box-shadow: 1px 1px 10px .5px gray;
+    box-sizing: border-box;
 }
 .contact{
     position: relative;
     top: 80px;
+    width: 300x;
 }
 .contact h3{
     margin: 0;

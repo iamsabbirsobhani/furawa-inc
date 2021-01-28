@@ -67,4 +67,18 @@ body{
 p{
   color: rgba(79, 58, 101, 0.719);
 }
+@media (max-width: 375px) and (min-width: 320px){
+#nav{
+  flex-direction: column;
+    height: 80px;
+}
+.logo{
+  padding-left: 0px;
+  width: 130px;
+}
+.link a{
+  padding: 5px;
+  text-decoration: none;
+}
+}
 </style>

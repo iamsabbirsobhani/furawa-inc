@@ -38,4 +38,16 @@ export default {};
   border-left: 2px solid #ff08d7;
   padding: 10px;
 }
+@media (max-width: 375px) and (min-width: 320px){
+  .main-2 {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .item-3 h1 {
+  font-size: 19px;
+}
+.item-4 img{
+  width: 300px;
+}
+}
 </style>

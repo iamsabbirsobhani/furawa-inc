@@ -49,4 +49,12 @@ export default {};
   position: relative;
   padding: 10px;
 }
+@media (max-width: 375px) and (min-width: 320px){
+  .item-5{
+    flex-direction: column;
+  }
+  .item-5 h1 {
+  font-size: 40px;
+  }
+}
 </style>

@@ -38,4 +38,31 @@ export default {};
 .item-7 {
   width: 600px;
 }
+@media (max-width: 375px) and (min-width: 320px){
+  .main-4 {
+    flex-direction: column;
+  }
+  .item-7 img{
+    width: 300px;
+    margin-top: 20px;
+  }
+  .item-6{
+    width: 300px;
+  }
+  .item-6 h1 {
+  font-size: 19px;
+}
+.item-6 p {
+  width: 300px;
+  margin: unset;
+}
+.item-7 {
+  width: 300px;
+}
+.item-6 h1 {
+  font-size: 40px;
+  width:300px;
+  margin: 0px;
+}
+}
 </style>

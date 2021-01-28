@@ -39,6 +39,9 @@ export default {};
 .item-1 h1 {
   font-size: 64px;
 }
+.item-1 p {
+  width: 600px;
+}
 .item-2 {
   width: 600px;
 }
@@ -61,5 +64,30 @@ export default {};
   display: inline;
   color: white;
   font-weight: normal;
+}
+@media (max-width: 375px) and (min-width: 320px){
+  .main {
+    flex-direction: column;
+  }
+  .item-1 h1 {
+  font-size: 19px;
+}
+  .item-2 img {
+  width: 300px;
+  margin-top: 25px;
+}
+.item-1 p {
+  width: 300px;
+}
+.item-2 {
+  width: 300px;
+}
+.item-1 {
+  width: 300px;
+  margin: 0px;
+}
+.btn-1 {
+  margin: 10px auto;
+}
 }
 </style>

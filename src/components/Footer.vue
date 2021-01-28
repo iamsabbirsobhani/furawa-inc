@@ -10,6 +10,7 @@
       </form>
     </div>
     <div class="featured-courses">
+      <h3>Featured Courses</h3>
       <ul>
         <li><a href="">Full-Stack Web Developement Immersive</a></li>
         <li><a href="">Data Science & Machine Learning Immersive</a></li>
@@ -61,15 +62,38 @@
 export default {};
 </script>
 
-<style>
+<style scoped>
 .footer {
   background-color: #cadefc;
   display: flex;
   justify-content: space-between;
   padding: 20px;
+    font-family: 'Inter', sans-serif;
+  font-size: 16px;
+}
+.footer h3, a, p, li, ul{
+  font-size: 16px;
+    text-decoration: none;
+
+}
+.footer a{
+  color: rgba(79, 58, 101, 0.719);
+
 }
 input{
     display: block;
+    width: 250px;
+    height: 20px;
+    margin: 20px 14px;
+    border-radius: 30px;
+    outline: none;
+    border: .1px solid rgba(197, 197, 197, 0.788);
+    padding: 10px;
+    font-size: 16px;
+}
+input:hover{
+      border: .1px solid  #FF08D7;
+
 }
 ul{
         padding-inline-start: 0px;
@@ -77,7 +101,57 @@ ul{
 li{
     list-style-type: none;
 }
+form{
+  position: relative;
+  top: 100px;
+  border: 1px solid  #574f7d ;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px 0.5px #574f7d9f;
+  transition: all 0.2s;
+}
+form h3{
+  margin-left: 17px;
+  font-size: 16px;
+}
+form:hover{
+  box-shadow: 1px 1px 10px 0.7px #574f7de3;
+}
 .quick-links p{
     width: 400px;
+}
+.logo{
+  padding-left: 30px;
+}
+.btn-submit{
+  display: block;
+  margin: 20px 15px;
+  border-radius: 30px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  background-color: #25CED8;
+    width: 265px;
+    height: 40px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+.btn-submit:hover{
+    background-color: #4eccd3;
+}
+@media (max-width: 375px) and (min-width: 320px) {
+  .footer{
+    flex-direction: column;
+  }
+  form{
+    top: 10px;
+    /* bottom: 10px; */
+  }
+  .quick-links p{
+    width: 300px;
+}
+.featured-courses{
+  margin-top: 20px;
+}
 }
 </style>
