@@ -5,7 +5,7 @@ This is a fictional company Furawa.inc's promotional website. Furawa.inc is a te
 
 # Color scheme
 
-FF08D7 - 25CED8 - cadefc - 574f7d -
+<pre align="center">1 #FF08D7 -2 #25CED8 -3 #cadefc -4 #574f7d </pre>
 
 
 <p align="center">
