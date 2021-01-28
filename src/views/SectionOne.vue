@@ -59,6 +59,7 @@ export default {};
 }
 .btn-1 p {
   display: inline;
+  color: white;
   font-weight: normal;
 }
 </style>
